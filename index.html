@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Distance Converter</h1>
+      <div class="temp-container">
+        <label for="decimeter">Decimeter:</label>
+        <input
+          oninput="computeTemp(event)"
+          type="number"
+          name="decimeter"
+          id="decimeter" 
+          placeholder="Enter Temperature"
+          class="input"
+        />
+      </div>
+      <div class="temp-container">
+        <label for="meter">Meter:</label>
+        <input
+          oninput="computeTemp(event)"
+          type="number"
+          name="meter"
+          id="meter"
+          placeholder="Enter Temperature"
+          class="input"
+        />
+      </div>
+      <div class="temp-container">
+        <label for="centimeter">Centimeter:</label>
+        <input
+          oninput="computeTemp(event)"
+          type="number"
+          name="centimeter"
+          id="centimeter"
+          placeholder="Enter Temperature"
+          class="input"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
